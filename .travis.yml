@@ -2,14 +2,10 @@ language: ruby
 rvm:
   - 1.9.3
   - jruby-19mode
-branches:
-  only:
-    - master
 notifications:
-  irc: "irc.freenode.org#sidekiq"
   email:
     recipients:
-      - sidekiq@librelist.org
+      - elado7@gmail.com
 matrix:
   allow_failures:
     - rvm: jruby-19mode
